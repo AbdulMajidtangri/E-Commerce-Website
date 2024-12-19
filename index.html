@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="logo">
+            <img src="./Screenshot 2024-12-17 171831.png" alt="">
+        </div>
+        <div class="navs">
+            <ul>
+              <li><a href="index.html#HomePage">Home</a></li>
+              <li><a href="index.html#Products">Products</a></li>
+              <li><a href="index.html#testimonials">Testimonials</a></li>
+              <li><a href="index.html#Contact">Contact</a></li>
+
+            </ul>  <div class="icon">
+            <i class="ri-menu-line"></i>
+        </div>
+        </div>
+      <div class="profileAndcartAndSearch">  
+          <div class="Search">
+            <input type="text" name="" id="inputsearch" placeholder="Search here">
+             <i class="ri-search-2-line"></i>
+        </div>  <div class="cart"id="Cartt">
+            <i class="ri-shopping-cart-2-fill"></i>
+        </div>
+        <div class="profile">
+            <i class="ri-user-fill"></i>
+        </div>
+        <div class="icon">
+          <i class="ri-menu-line"></i>
+      </div>
+            </div>
+    </div>
+    <div class="slider">
+        <ul>
+          <li><a href="index.html#HomePage">Home</a></li>
+          <li><a href="index.html#Products">Products</a></li>
+          <li><a href="index.html#testimonials">Testimonials</a></li>
+          <li><a href="index.html#Contact">Contact</a></li>
+          <li id="sliderCart">
+            <a href="#"><i class="ri-shopping-cart-2-fill"></i> Cart</a>
+        </li>
+          
+        </div>
+        </ul>
+      </div>
+      <div class="cart-container" id="cartContainer">
+        <h3>Shopping Cart</h3>
+        <ul id="cartItems"></ul>
+        <button class="showFormButton  buy">Buy Now</button>
+      </div>
+      <div class="modal" id="formModal">
+        <div class="modal-content">
+          <span class="close-button" id="closeModal">&times;</span>
+          <h2>Fill Your Details</h2>
+          <form id="userForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+            
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+            
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+            
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+              <option value="">Select Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+    
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    <div class="home"id="HomePage">
+        <div class="hometext">
+            <p>Winter Collection</p>
+            <h1>New Winter <br> 
+                 Collection 2022 </h1>
+                 <div class="shopbutton">
+                <a href="#Products"> <p>Shop Now <i class="ri-arrow-right-line"></i></p></a>   
+                 </div>
+        </div>
+        <div class="banner">
+            <img src="./banner-3.png" alt="">
+            <a href="#Products">
+                 <i class="ri-arrow-down-line"></i>
+            </a> 
+           
+        </div>
+    </div>
+    <div class="Products"id="Products">
+<div class="producthead">
+    <h1>Our Trending Products</h1>
+</div>
+
+<div class="pp1">
+   <div class="prow1">
+    <div class="p1">
+      <div class="productimages"id="product1">
+        <img src="./1.jpg" alt="Image1"class="productimage">
+ 
+         </div>
+<p>Floral Embroidered Blush Tunic with Black Printed Pants
+</p>
+<img src="./240_F_583869177_xmQTQrjm3FjmIXVJ2Fjcdz6eRlfrYxMH.jpg" alt="Rating"class="rate">
+<p> $200.00</p>
+
+<div class="productsbuttons">
+  <button class="addcart">Add Cart</button>
+<button class="showFormButton  buy">Buy Now</button>
+</div>
+    
+    </div>
+    <div class="p2">
+ <div class="productimages"id="product2">
+            <img src="./WhatsApp Image 2024-12-12 at 13.32.04_a99925b5.jpg" alt="Image1"class="productimage">
+
+ </div>
+<p>Classic Navy Double-Breasted Blazer</p>
+<img src="./240_F_583869177_xmQTQrjm3FjmIXVJ2Fjcdz6eRlfrYxMH.jpg" alt="Rating"class="rate">
+<p>$500.00</p>
+
+<div class="productsbuttons">
+  <button class="addcart">Add Cart</button>
+<button class="showFormButton  buy">Buy Now</button>
+</div>
+    </div>
+</div>
+<div class="prow2">
+    <div class="p1">
+      <div class="productimages">
+                <img src="./4.jpg" alt="Image1"class="productimage"id="product3">
+
+      </div>
+        <p>Sunny Yellow Floral Maxi Dress        </p>
+        <img src="./240_F_583869177_xmQTQrjm3FjmIXVJ2Fjcdz6eRlfrYxMH.jpg" alt="Rating"class="rate">
+        <p>$200.00</p>
+        <div class="productsbuttons">
+           <button class="addcart">Add Cart</button>
+        <button class="showFormButton  buy">Buy Now</button>
+        </div>
+       
+            
+            </div>
+            <div class="p2">
+                <div class="productimages">
+                    <img src="./2.jpg" alt="Image1"class="productimage"id="product4">
+                </div>
+        <p>Black Crop Jacket with Mustard Belted Shorts
+        </p>
+        <img src="./240_F_583869177_xmQTQrjm3FjmIXVJ2Fjcdz6eRlfrYxMH.jpg" alt="Rating"class="rate">
+        <p>$500.00</p>
+        <div class="productsbuttons">
+          <button class="addcart">Add Cart</button>
+       <button class="showFormButton  buy">Buy Now</button>
+       </div>
+            </div>
+</div> 
+</div>
+
+
+<div class="pp2">
+    <div class="prow1">
+     <div class="p1">
+       <div class="productimages">
+         <img src="./5.jpg" alt="Image1"class="productimage"id="product5">
+  
+          </div>
+ <p>White Lace Boho Top
+</p>
+ <img src="./240_F_583869177_xmQTQrjm3FjmIXVJ2Fjcdz6eRlfrYxMH.jpg" alt="Rating"class="rate">
+ <p>$200.00</p>
+ <div class="productsbuttons">
+  <button class="addcart">Add Cart</button>
+<button class="showFormButton  buy">Buy Now</button>
+</div>
+ 
+     
+     </div>
+     <div class="p2">
+  <div class="productimages">
+             <img src="./6.jpg" alt="Image1"class="productimage"id="product6">
+ 
+  </div>
+ <p>Golden Mustard Knit Sweater</p>
+ <img src="./240_F_583869177_xmQTQrjm3FjmIXVJ2Fjcdz6eRlfrYxMH.jpg" alt="Rating"class="rate">
+ <p>$500.00</p>
+ <div class="productsbuttons">
+  <button class="addcart">Add Cart</button>
+<button class="showFormButton  buy">Buy Now</button>
+</div>
+     </div>
+ </div>
+ <div class="prow2">
+     <div class="p1">
+       <div class="productimages">
+                 <img src="./7.jpg" alt="Image1"class="productimage"id="product7">
+ 
+       </div>
+         <p>Rustic Geometric Print Top        </p>
+         <img src="./240_F_583869177_xmQTQrjm3FjmIXVJ2Fjcdz6eRlfrYxMH.jpg" alt="Rating"class="rate">
+         <p>$200.00</p>
+         <div class="productsbuttons">
+          <button class="addcart">Add Cart</button>
+       <button class="showFormButton  buy">Buy Now</button>
+       </div>
+             
+             </div>
+             <div class="p2">
+                 <div class="productimages">
+                     <img src="./8.jpg" alt="Image1"class="productimage"id="product8">
+                 </div>
+         <p>Denim Classic Jacket with Olive Pants        </p>
+         <img src="./240_F_583869177_xmQTQrjm3FjmIXVJ2Fjcdz6eRlfrYxMH.jpg" alt="Rating"class="rate">
+         <p>$500.00</p>
+     
+         <div class="productsbuttons">
+          <button class="addcart">Add Cart</button>
+       <button class="showFormButton  buy">Buy Now</button>
+       </div>
+             </div>
+ </div> 
+ </div>
+    </div>
+    <div class="Exclusive">
+        <div class="productdescription">
+            <div class="exeheading">
+                <h1>Exclusive Offers</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint mollitia expedita sunt atque doloremque dolore! Adipisci mollitia quo quaerat veritatis, doloribus eaque? Soluta distinctio numquam similique aliquid aliquam reprehenderit ullam!</p>
+               <a href="./Shop.html"><button type="button"id="exclubtn">Shop Now <i class="ri-arrow-right-line"></i></button></a> 
+            </div>
+        </div>
+        <div class="productimg">
+            <img src="./51cw8FzoFDL._AC_UL480_FMwebp_QL65_.webp" alt=""id="Exclu">
+            <img src="./51Yyfc7I5ML._AC_UL480_FMwebp_QL65_.webp" alt=""id="Exclu2">
+        </div>
+    </div>
+    <div class="Newlaunhes">
+        <div class="launchheading">
+            <h1>New Launched Products</h1>
+        </div>
+        <div class="launchproducts">
+            <div class="launchpart1">
+                <div class="lp1"> 
+                    <div class="productimagess">
+                        <img src="./images (2).jpeg" alt="Image1"class="launchimg"id="launchproduct1"></div>
+                         <p>Lorem, ipsum.</p>
+                         <p>$200.00</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae iste doloremque in voluptatem tenetur, fugiat maxime odit quibusdam alias voluptatum?</p>
+                <div class="launchbtns">
+                 <button class="addcart">Add Cart</button>
+                <button class="showFormButton  buy">Buy Now</button>
+                </div>
+               
+                </div>
+                <div class="lp2">
+                    <div class="productimagess">
+                        <img src="./images (3).jpeg" alt="Image1"class="launchimg"id="launchproduct2">
+                         </div>
+                         <p>Lorem, ipsum.</p>
+                         <p>$200.00</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quaerat inventore expedita odit provident doloremque reiciendis dolorum nesciunt dignissimos enim?</p>
+                <div class="launchbtns">
+                  <button class="addcart">Add Cart</button>
+                <button class="showFormButton  buy">Buy Now</button>
+                </div>
+              
+                </div>
+            </div>
+            <div class="launchpart2">
+                <div class="lp1">  <div class="productimagess">
+                    <img src="./young-beautiful-fair-haired-woman-knited-hat-sweater-scarf-mittens-posing-yellow_176420-7689.avif" alt="Image1"class="launchimg"id="launchproduct3">
+             
+                     </div>
+                     <p>Lorem, ipsum.</p>
+<p>$200.00</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quaerat inventore expedita odit provident doloremque reiciendis dolorum nesciunt dignissimos enim?</p>
+            <div class="launchbtns">
+          <button class="addcart">Add Cart</button>
+            <button class="showFormButton  buy">Buy Now</button>       
+            </div>
+           
+        </div>
+                <div class="lp2"> 
+                    <div class="productimagess">
+                        <img src="./woman-wearing-warm-cap-her-head_329181-6691.avif" alt="Image1"class="launchimg"id="launchproduct4">
+                         </div>
+                         <p>Lorem, ipsum.</p>
+<p>$200.00</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quaerat inventore expedita odit provident doloremque reiciendis dolorum nesciunt dignissimos enim?</p>
+                <div class="launchbtns">
+                 <button class="addcart">Add Cart</button>
+                <button class="showFormButton  buy">Buy Now</button>     
+                </div>
+              
+                </div></div>
+            </div>
+        </div>
+
+   <div class="testimonial"id="testimonials">
+    <div class="heading">
+        <h1>Testimonials</h1>
+    </div>
+    <div class="comments">
+       <div class="comment1">
+        <div class="testimonialprofile">
+            <img src="./alexander-hipp-iEEBWgY_6lA-unsplash.jpg" alt=""class="testimage">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem corrupti rem iure rerum corporis aliquid delectus, assumenda deleniti laborum illo odit. Excepturi, temporibus!</p>
+        <img src="./240_F_583869177_xmQTQrjm3FjmIXVJ2Fjcdz6eRlfrYxMH.jpg" alt=""class="rate">
+    </div>
+    <div class="comment2">
+        <div class="testimonialprofile">
+            <img src="./IMG-20240122-WA0159_1_-removebg-03.jpeg" alt=""class="testimage">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem corrupti rem iure rerum corporis aliquid delectus, assumenda deleniti laborum illo odit. Excepturi, temporibus!</p>
+        <img src="./240_F_583869177_xmQTQrjm3FjmIXVJ2Fjcdz6eRlfrYxMH.jpg" alt=""class="rate">
+    
+    </div>    
+    </div>
+ 
+   </div>
+   <div class="Contact" id="Contact">
+    <div class="Conhead">
+      <h1>Contact Us</h1>
+    </div>
+    <div class="contactbody">
+      <div class="Contactheading">
+        <h1>Let's Connect</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ut cupiditate beatae necessitatibus voluptatem nemo eum at et. Ipsam</p>
+        <img src="./images (4).jpeg" alt="Location" class="Location">
+      </div>
+      <div class="form">
+        <div class="start">
+          <!-- Name Section -->
+          <div class="name">
+            <div class="input-group">
+              <i class="ri-user-fill"></i>
+              <input type="text" class="inputtxt" id="Firstname" placeholder="First Name">
+            </div>
+            <div class="input-group">
+              <i class="ri-user-fill"></i>
+              <input type="text" class="inputtxt" id="Lastname" placeholder="Last Name">
+            </div>
+          </div>
+  
+          <!-- Contact Section -->
+          <div class="email">
+            <div class="input-group">
+              <i class="ri-mail-fill"></i>
+              <input type="email" class="inputtxt" id="Email" placeholder="Email">
+            </div>
+            <div class="input-group">
+              <i class="ri-phone-fill"></i>
+              <input type="tel" class="inputtxt" id="Phone" placeholder="Phone">
+            </div>
+          </div>
+  
+          <!-- Gender Section -->
+          <div class="gender">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+              <option value="">Select Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+  
+          <!-- Submit Button -->
+          <div class="sub">
+            <button type="submit" class="submit">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula nisl euismod suscipit luctus.</p>
+        </div>
+        <div class="footer-section links">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#Products">Products</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+            </ul>
+        </div>
+        <div class="footer-section contact">
+            <h2>Contact Us</h2>
+            <p>Email: support@exclusivehere.com</p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        &copy; 2024 Exclusive Here | All Rights Reserved
+    </div>
+</footer>
+
+<script src="./jsss.js"></script>
+</body>
+</html>
